@@ -1,0 +1,10 @@
+1. Encapsulation
+Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). It describes the idea of wrapping data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data. To prevent accidental change, an object’s variable can only be changed by an object’s method. Those types of variables are known as private variable. 
+A class is an example of encapsulation as it encapsulates all the data that is member functions, variables, etc.
+2. Constructor and destruct in inheritance
+Base class constructors are called first and the derived class constructors are called next in single inheritance. Destructor is called in reverse sequence of constructor invocation i.e. The destructor of the derived class is called first and the destructor of the base is called next
+3. Dynamic binding OOP
+Dynamic binding is the mechanism that a computer program waits until runtime to bind the name of a method called to an actual subroutine. Function or method overriding is the perfect example of this type of binding. Virtual functions are used to achieve the concept of function overriding.
+4. Diamond problem
+The "diamond problem" is an ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C.
+Solution: The solution to the diamond problem is to use the virtual keyword. We make the two parent classes (who inherit from the same grandparent class) into virtual classes in order to avoid two copies of the grandparent class in the child class.
