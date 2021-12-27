@@ -8,3 +8,5 @@ Dynamic binding is the mechanism that a computer program waits until runtime to 
 4. Diamond problem
 The "diamond problem" is an ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C.
 Solution: The solution to the diamond problem is to use the virtual keyword. We make the two parent classes (who inherit from the same grandparent class) into virtual classes in order to avoid two copies of the grandparent class in the child class.
+5. Decorator:
+Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
